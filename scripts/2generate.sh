@@ -28,7 +28,7 @@ echo -e "${YELLOW}📁 临时工作目录: $TMP_WORK_DIR${NC}"
 RESULT_DIR="/mnt/sdc/user_workspace/liuxiuming/Projects/ant/LLM-Attack-Cognition/result/generate"
 mkdir -p "$RESULT_DIR" || { echo -e "${RED}错误：无法创建输出目录${NC}"; exit 1; }
 
-LOG_DIR="/mnt/sdc/user_workspace/liuxiuming/Projects/ant/LLM-Attack-Cognition/src/log"
+LOG_DIR="/mnt/sdc/user_workspace/liuxiuming/Projects/ant/LLM-Attack-Cognition/src/log/2"
 mkdir -p "$LOG_DIR" || { echo -e "${RED}错误：无法创建日志目录${NC}"; exit 1; }
 
 MODELS=(

@@ -4,3 +4,4 @@ T2I-Fuzzer
 **/log
 **/*.npy
 **/__pycache__
+**/*.pt

@@ -29,7 +29,7 @@ mkdir -p "$OUTPUT_DIR" || {
     exit 1
 }
 
-LOG_DIR="/mnt/sdc/user_workspace/liuxiuming/Projects/ant/LLM-Attack-Cognition/src/log"
+LOG_DIR="/mnt/sdc/user_workspace/liuxiuming/Projects/ant/LLM-Attack-Cognition/src/log/1"
 mkdir -p "$LOG_DIR" || {
     echo -e "${RED}错误：无法创建日志目录 $LOG_DIR${NC}"
     exit 1
