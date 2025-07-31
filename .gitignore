@@ -1,0 +1,6 @@
+T2I-Fuzzer
+# result/hiddenstates
+**/tmp
+**/log
+**/*.npy
+**/__pycache__
